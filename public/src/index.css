@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&family=Poppins:wght@300;500&family=Ubuntu:wght@300&display=swap');
+.xyz{
+  color: #888;
+}
+
+
+.temp{
+  border: 2px solid red ;
+}
+
+
+.temp2{
+  border: 2px solid blue ;
+}
+
+.btn-dark{
+  background-color: #7f7f7f !important;
+}
+
+.todolist-wrapper{
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  width: 50vw !important;
+}
+
+.add-task-input{
+  border: 2px solid rgb(16, 16, 16);
+  width: 75%;
+  height: 50px;
+
+  border-radius: 4px;
+  padding: 15px;
+  margin: 5px;
+  font-family: 'poppins', sans-serif;
+}
+
+.add-task-btn{
+  width: 18%;
+  border: 2px solid rgb(73, 73, 73);
+  height: 50px;
+  border-radius: 4px;
+  background-color: #6e6e6e;
+  color: rgb(231, 231, 231);
+  font-size: large;
+  margin:5px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+}
+
+
+.task{
+  border: 2px solid #ff653d;
+  width: 75%;
+  height: 50px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #ff633c;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  color:#484848;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+
+}
+
+.task-checked{
+  border: 2px solid #ff653d;
+  width: 75%;
+  height: 50px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #ff633c;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  color:#484848;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  text-decoration: line-through;
+
+}
+
+.tasks-edit-btn{
+  width: 15%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #6e6e6e;
+  color: rgb(231, 231, 231);
+  font-size: large;
+  margin:5px;
+  color:#ffffff;
+
+  background-color: #9e3f9b;
+  border: 2px solid #9e3f9b;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  font-family: 'nunito', Courier, monospace;
+
+}
+
+.tasks-delete-btn{
+  
+  
+  all: unset;
+  margin:5px;
+  font-size: large;
+  height: 50px;
+  width: 5%;
+  margin-left: 15px;
+  
+  border-radius: 50%;
+
+
+}
+
+.tasks-checkbox{
+  border: 2px solid black;
+}
+
+
+.edit-task-input{
+  border: 2px solid #000000;
+  width: 75%;
+  height: 50px;
+
+  border-radius: 4px;
+  padding: 15px;
+  margin: 5px;
+  font-family: 'poppins', sans-serif;
+  background-color: #ff633c;
+  font-size: 20px;
+}
+
